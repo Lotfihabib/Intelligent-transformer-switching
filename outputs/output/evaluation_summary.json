@@ -1,0 +1,69 @@
+{
+  "aggregate_point_metrics": {
+    "mae": 2.175011321902275,
+    "rmse": 2.9692299789457457,
+    "mape": 2.947995275259018,
+    "r2": 0.9572902409414997
+  },
+  "aggregate_probabilistic_metrics": {
+    "crps": 0.21932844817638397,
+    "picp_80": 77.84509633978207,
+    "sharpness": 6.57920257250468,
+    "pinball_q10": 0.5302728787064552,
+    "pinball_q50": 1.0875056609511375,
+    "pinball_q90": 0.5435837556918462,
+    "pinball_total": 2.161362295349439
+  },
+  "advanced_calibration_summary": {
+    "mean_calibration_errors_by_horizon": {
+      "horizon_1": 0.05522612525512945,
+      "horizon_6": 0.039026748308088964,
+      "horizon_12": 0.07741970136427116,
+      "horizon_24": 0.09593941347083468
+    },
+    "pit_uniformity_tests": {
+      "horizon_1": {
+        "chi2_pvalue": 0.0,
+        "ks_pvalue": 2.610986730693356e-276,
+        "is_uniform": "False"
+      },
+      "horizon_6": {
+        "chi2_pvalue": 0.0,
+        "ks_pvalue": 1.3703326e-317,
+        "is_uniform": "False"
+      },
+      "horizon_12": {
+        "chi2_pvalue": 0.0,
+        "ks_pvalue": 0.0,
+        "is_uniform": "False"
+      },
+      "horizon_24": {
+        "chi2_pvalue": 0.0,
+        "ks_pvalue": 1.3656e-320,
+        "is_uniform": "False"
+      }
+    },
+    "interval_score_summary": {
+      "horizon_1": {
+        "winkler_score": 6.481267249856962,
+        "coverage": 0.9026103770544635,
+        "sharpness": 5.317022800445557
+      },
+      "horizon_6": {
+        "winkler_score": 8.721995013842765,
+        "coverage": 0.8523364485981308,
+        "sharpness": 6.499399662017822
+      },
+      "horizon_12": {
+        "winkler_score": 11.348690751149814,
+        "coverage": 0.759136319690622,
+        "sharpness": 6.949474811553955
+      },
+      "horizon_24": {
+        "winkler_score": 14.39966407724246,
+        "coverage": 0.6831453432162423,
+        "sharpness": 7.348174571990967
+      }
+    }
+  }
+}
